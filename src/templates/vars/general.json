@@ -1,23 +1,27 @@
 {
-  "title" : "Great Yakima Washington Dentists- Dr. Jeffrey Trammell, Dr. Christopher Trammell, Dr. Timothy Gutmann, Dr. Ross Austin",
-  "description" : "Dr. Rick Calvin is one of Londonderry’s most loved dentists. Join us for a $65 Limited Time New Patient Special Offer. Read our patient reviews!",
-  "keywords" : "rick calvin dds,  dr. rick calvin, londonderry new hampshire dentist, londonderry dentist, londonderry cosmetic dentist, londonderry general dentist, londonderry family dentist, cerec one-visit crowns, same day crowns, invisalign, clear braces, sleep apnea treatment, dental implants, implant dentistry, custom dentures, porcelain crowns, porcelain veneers, porcelain bridges, tooth whitening, smile whitening",
-  "mainDocter" : "Dr. Christopher Trammell",
-  "mainDoctor" : "Dr. Christopher Trammell",
-  "newPhone" : "+18882602257",
-  "newPhoneNoBreak" : "(888)&nbsp;260-2257",
-  "existingPhone" : "+5099650080",
-  "existingPhoneNoBreak" : "(509)&nbsp;965-5080",
-  "addressFirst" : "25 Buttrick Road , Suite A 2",
-  "addressLast" : "Londonderry, NH 03053",
-  "birdeye" : "2209599009",
-  "birdeyeScript" : "https://birdeye.com/embed/v4/149805043040403/3/2209599009",
-  "insuranceLink" : "https://calvin-dental-associates.illumitrac.com/#programs",
-  "googleMap" : "https://www.google.com/maps/place/Chalet+Dental/@46.599685,-120.588814,17z/data=!4m5!3m4!1s0x0:0x3a1b3aefa7506d54!8m2!3d46.5996852!4d-120.5888143?hl=en-US",
+  "title" : "Great Pryor Dentist - Dr. Lori Smith",
+  "description" : "Dr. Lori Smith is one of Pryor's most loved dentists. Now Welcoming New Patients! Join us for a $45 Limited Time New Patient Special Offer. Read our patient reviews!",
+  "keywords" : "dr. lori smith, pryor dentist, family dentist, family dentistry, general dentist, cosmetic dentistry, cosmetic dentist, smile whitening, crowns and bridges, implant dentistry",
+  "mainDocter" : "Dr. Lori Smith",
+  "mainDoctor" : "Dr. Lori Smith",
+  "newPhone" : "+18883842882",
+  "newPhoneNoBreak" : "(888)&nbsp;384-2882",
+  "existingPhone" : "+9188257645",
+  "existingPhoneNoBreak" : "(918)&nbsp;825-7645",
+  "addressFirst" : "13 South Coo-Y-Yah",
+  "addressLast" : "Pryor OK 74361",
+  "birdeye" : "4076240005",
+  "birdeyeScript" : "https://birdeye.com/embed/v4/147144830655567/3/4076240005",
+  "insuranceLink" : "https://lori-smith-dds.illumitrac.com/",
+  "googleMap" : "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3133126,15z/data=!4m5!3m4!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126",
   "socialMediaLinks": [
     {
       "media": "facebook",
-      "link": "https://www.facebook.com/Chalet-Dental-Clinic-195438440743/"
+      "link": "https://www.facebook.com/Lori-Smith-DDS-Dentistry-for-Children-Adults-163582010320225/"
+    },
+    {
+      "media": "google-plus",
+      "link": "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3133126,15z/data=!4m5!3m4!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126"
     }
   ]
 }

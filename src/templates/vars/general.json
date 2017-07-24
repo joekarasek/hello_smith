@@ -16,12 +16,12 @@
   "googleMap" : "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3133126,15z/data=!4m5!3m4!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126",
   "socialMediaLinks": [
     {
-      "media": "facebook",
-      "link": "https://www.facebook.com/Lori-Smith-DDS-Dentistry-for-Children-Adults-163582010320225/"
-    },
-    {
       "media": "google-plus",
       "link": "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3133126,15z/data=!4m5!3m4!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126"
+    },
+    {
+      "media": "facebook",
+      "link": "https://www.facebook.com/Lori-Smith-DDS-Dentistry-for-Children-Adults-163582010320225/"
     }
   ]
 }

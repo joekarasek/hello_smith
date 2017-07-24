@@ -1,5 +1,4 @@
 #header.full-header {
-  
   $c-header: #e8fbff;
   $c-menu-trigger: #2f1d0f;
   $nav-font: $ff-lato;
@@ -103,7 +102,7 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #06b7d7;      
+      border-top: 1px solid #06b7d7;
       background-color: #e8fbff;
       padding-left: 30px;
 

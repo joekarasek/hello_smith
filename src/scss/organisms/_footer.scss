@@ -1,8 +1,8 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: #183163;
-  border-top: solid 4px #96cb43;
+  background-color: #4b382c;
+  border-top: none;
 
   a {
     @include link-color(#fff);
@@ -11,7 +11,7 @@
   p {
     font-weight: 400;
     font-family: $ff-lato;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.7;
     color: #fff;
 
@@ -20,7 +20,7 @@
     }
 
     a {
-      text-decoration: underline;
+      text-decoration: none;
 
       &:hover {
         text-decoration: none;

@@ -22,13 +22,20 @@ button.btn {
   }
 
   &.btn--style-two {
-    background-color: #f06123;
+    background: none;
+    background-color: #06b7d7;
     color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: $ff-lato;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+
+    @include font-size(16px, 16px, 15px, 14px, 13px);
 
     &:hover,
     &:focus {
-      background-color: darken(#f06123, 15%);
+      // background-color: darken(#f06123, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }

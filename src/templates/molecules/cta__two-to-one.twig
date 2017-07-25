@@ -7,17 +7,21 @@
 <div class="cta {{ classes ?: '' }}" {% if id %}id="{{ id }}"{% endif %}>
     <div class="container center">
         <div class="flex-wrapper">
-            <div class="cta__btn flex-wrapper__item">
-                {% include 'atoms/request-appointment-button.twig' with {
-                    classes: "btn--style-two"
-                }%}
-            </div>
-            <div class="vertical-break"></div>
+            {# item one #}
             <div class="cta__new flex-wrapper__item">
                 <h5 class="cta__new-text allow-orphan">New Patient Hotline</h5>
                 <h2 class="cta__new-number allow-orphan">
                     {% include 'atoms/new-patient-number.twig' %}
                 </h2>
+            </div>
+            
+            {# item two #}
+            <div class="vertical-break"></div>
+            {# item three #}
+            <div class="cta__btn flex-wrapper__item">
+                {% include 'atoms/request-appointment-button.twig' with {
+                    classes: "btn--style-two"
+                }%}
             </div>
         </div>
         {% if existingPatients %}

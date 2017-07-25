@@ -12,8 +12,9 @@
     color: #585756;
     font-family: $ff-lato;
     margin-bottom: 0;
-    letter-spacing: 1px;
+    padding-right: 25px;
+    // letter-spacing: 1px;
 
-    @include font-size(24px, 23px, 23px, 19px, 17px);
+    @include font-size(24px, 23px, 23px, 19px, 16px);
   }
 }

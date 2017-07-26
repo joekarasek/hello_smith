@@ -5,19 +5,16 @@
     {#</div>#}
 
     <div class="location-card__logo--wrapper">
-        <img  src="assets/chalet-logo-bottom.svg" alt="{{ mainDoctor }}" class="location-card__logo">
+        <img  src="assets/smith-lori-logo-bottom.png" alt="{{ mainDoctor }}" class="location-card__logo">
     </div>
 
     <div class="location-card__content">
 
-        <h6 class="location-card__doctor">Jeffrey S. Trammell, <span class="location-card__doctor--title">DDS</span></h6>
-        <h6 class="location-card__doctor">Christopher P. Trammell, <span class="location-card__doctor--title">DDS</span></h6>
-        <h6 class="location-card__doctor">Timothy G. Gutman, <span class="location-card__doctor--title">DDS</span></h6>
-        <h6 class="location-card__doctor">Ross D. Austin, <span class="location-card__doctor--title">DDS</span></h6>
+        <h6 class="location-card__doctor">Lori Smith, <span class="location-card__doctor--title">DDS</span></h6>
 
         {#<p class="location-card__doctor-sub">GENERAL & COSMETIC DENTIST</p>#}
 
-        <p class="location-card__address">6006 Summitview Ave.<br>Yakima, WA 98908</p>
+        <p class="location-card__address">13 South Coo-Y-Yah<br>Pryor OK 74361</p>
 
         <a href="{{ googleMap }}" target="_blank" class="link-no-style ">
             <h6 class="location-card__map-link underline">Click for map & directions</h6>
@@ -30,10 +27,10 @@
             <a href="tel:{{ existingPhone }}" class="link-no-style location-card__existing-patient-number">{{ existingPhoneNoBreak }}</a>
         </p>
 
-        {% include 'atoms/hours-table.twig' %}
-
         {% include 'atoms/request-appointment-button.twig' with {
-            classes: "btn--style-two"
+            classes: "btn--style-two location-card__btn"
         } %}
-    </div>
+
+        {% include 'atoms/hours-table.twig' %}
+    </div> 
 </div>

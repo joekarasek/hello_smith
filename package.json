@@ -1,5 +1,5 @@
 {
-  "name": "trammell",
+  "name": "Smith",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,6 +20,6 @@
     "gulp:tasks": "gulp --tasks",
     "build:prod": "gulp compile && cp -r src/assets/loaders build/css/images && cp -r src/assets/loaders build/images"
   },
-  "author": "",
+  "author": "Michaela Davis",
   "license": "ISC"
 }

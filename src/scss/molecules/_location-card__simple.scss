@@ -31,8 +31,8 @@
     &--wrapper {
       //background-color: #323437;
       text-align: center;
-      padding-top: 10px;
-      padding-bottom: 20px;
+      // padding-top: 10px;
+      // padding-bottom: 20px;
 
       @media (max-width: $width-md) {
         background: none;
@@ -49,12 +49,14 @@
   }
 
   &__doctor {
-    color: #fff;
+    color: #2f1d0f;
     font-weight: 700;
     line-height: 1;
-    margin-top: 10px;
+    // margin-top: 10px;
     margin-bottom: 10px;
     font-family: $ff-lato;
+
+    @include font-size(36px, 34px, 32px, 30px, 28px);
 
     &--title {
       font-weight: 400;
@@ -62,14 +64,14 @@
   }
 
   &__address {
-    color: #fff;
+    color: #2f1d0f;
     font-size: 20px;
     margin-top: 25px;
     font-family: $ff-lato;
   }
 
   &__map-link {
-    color: #fdf378;
+    color: #008aa3;
     text-decoration: underline;
     font-size: 16px;
     letter-spacing: 1px;
@@ -78,7 +80,7 @@
   }
 
   &__new-patient-text {
-    color: #fff;
+    color: #2f1d0f;
     font-size: 18px;
     margin-bottom: 0;
     line-height: 1;
@@ -89,7 +91,7 @@
     display: block;
     font-size: 40px;
     font-weight: 900;
-    color: #fff;
+    color: #2f1d0f;
     font-family: $ff-lato;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -98,23 +100,24 @@
     @include font-size(38px, 38px, 36px, 36px, 32px);
 
     &:hover {
-      color: #fff;
+      color: #06b7d7;
       text-decoration: none;
     }
   }
 
   &__existing-patient-text {
-    color: #fff;
+    color: #2f1d0f;
     margin-top: 15px;
     line-height: 1;
     margin-bottom: 25px;
     font-family: $ff-open;
 
+
     //@include font-size(20px, 20px, 20px, 18px, 16px);
   }
 
   &__existing-patient-number {
-    color: #fff;
+    color: #2f1d0f;
     font-family: $ff-open;
 
     @include font-size(20px, 20px, 20px, 18px, 16px);
@@ -126,7 +129,7 @@
   }
 
   &__fax-text {
-    color: #fff;
+    color: #4b382c;
     margin-top: 20px;
     line-height: 1;
     margin-bottom: 5px;
@@ -134,18 +137,18 @@
   }
 
   &__fax-number {
-    color: #fff;
+    color: #4b382c;
 
     @include font-size(28px, 26px, 24px, 22px, 22px);
   }
 
   &__btn {
-    margin-top: 25px;
+    // margin-top: 25px;
     margin-bottom: 25px;
   }
 
   &__welcoming-patients {
-    color: #fff;
+    color: #4b382c;
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 19px;
@@ -162,19 +165,20 @@
   }
 
   .hours-table {
-    table {
-      margin-bottom: 0;
-    }
+      padding-bottom: 20px;
 
     h5 {
+      line-height: 1;
+      margin-bottom: 0;
       font-weight: 700;
       font-size: 21px;
-      color: #fff;
+      color: #4b382c;
       font-family: $ff-lato;
+      padding-bottom: 10px;
     }
 
     p {
-      color: #fff;
+      color: #4b382c;
       font-size: 18px;
       line-height: 1;
       margin: 0 auto;

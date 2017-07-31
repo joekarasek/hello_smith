@@ -1,5 +1,5 @@
 .tour {
-  background-image: url(/assets/tour-background.jpg);
+  background-image: url(/assets/tour-bg.jpg);
   background-size: cover;
   background-position: top center;
   color: #fff;
@@ -11,8 +11,9 @@
     margin-bottom: 25px;
 
     &__title {
-      color: #fff;
+      color: #4b382c;
       margin-bottom: 10px;
+      font-weight: 700;
     }
 
     &__copy {
@@ -78,6 +79,12 @@
   @media (min-width: 1200px) {
     img {
       max-height: 667px !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      width: inherit !important;
     }
   }
 }

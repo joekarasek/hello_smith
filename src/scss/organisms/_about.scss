@@ -1,70 +1,41 @@
 #section-about {
-  background-image: url(/assets/bio-bg-diag.jpg);
-  background-repeat: repeat;
+  background-image: none;
 
-  .heading {
-    padding-top: 45px;
-    padding-bottom: 30px;
-    text-align: center;
+  .about__title {
+    margin-bottom: 0;
+    font-family: $ff-dancing;
+    color: #4b382c;
+    font-size: 60px;
+  }
 
-    &__main {
-      color: #183163;
-      margin-bottom: 30px;
-      line-height: 1;
-    }
+  .about__doctor {
+    color: #0491ab;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1;
 
-    &__byline {
-      color: #393939;
-
-      @media (min-width: 768px) {
-        padding-left: 30px;
-        padding-right: 30px;
-      }
+   &--title {
+      font-size: 35px;
     }
   }
 
-  .bio-card {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-
-    &__container {
-      max-width: 1340px;
-      padding: 0 0 45px;
-    }
-
-    &__image {
-      img {
-        width: 100%;
-      }
-    }
-
-    &__title {
-      color: #183163;
+  p {
+       &.about__copy {
       margin-top: 30px;
-      padding-bottom: 20px;
-      border-bottom: solid 1px #0a79bd;
-
-      &--small {
-        font-size: 20px;
-      }
-    }
-
-    &__copy {
-      color: #393939;
-      font-size: 16px;
     }
   }
 
-  .full-width-carousel-arrows {
-    position: relative;
+  .about-mobile-image {
+    max-width: 400px;
+  }
 
-    .container {
-      position: static;
-    }
-
-    .owl-carousel {
-      position: static;
+  @media (min-width: 992px) {
+    .about-main-bg {
+      padding: 30px 0;
+      background-image: url(/assets/lori-bio.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top left;
     }
   }
 }

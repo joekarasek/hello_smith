@@ -32,6 +32,33 @@
     ],
     autoHeight: true
   });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    navText: [
+      '<img src="assets/services-left.png">',
+      '<img src="assets/services-right.png">'
+    ],
+    dots: false,
+    margin: 30,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    }
+  });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,

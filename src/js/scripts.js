@@ -26,8 +26,8 @@
     items: 1,
     margin: 40,
     navText: [
-      '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
+      '<img src="assets/services-left.png">',
+      '<img src="assets/services-right.png">'
     ],
     autoHeight: true
   });

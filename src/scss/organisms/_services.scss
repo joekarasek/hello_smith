@@ -117,4 +117,60 @@
       }
     }
   }
+
+  .full-width-wrapper {
+    position: relative;
+  }
+
+  .full-width,
+  .owl-carousel {
+    position: static !important;
+  }
+
+  .services-part-two {
+    padding: 15px 0 60px;
+    background-image: url(/assets/brown-pattern.svg);
+    background-repeat: repeat;
+    background-size: 100px;
+
+    .heading {
+      background: none;
+
+      &__title {
+        color: #36c4de;
+      }
+    }
+  }
+
+  .services-carousel {
+    position: relative;
+  }
+
+  .services-carousel__item {
+    position: relative;
+
+    .services-carousel__title {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px 15px;
+
+      h5 {
+        color: #412e1f;
+        margin-bottom: 5px;
+        line-height: 1;
+
+        @include font-size(24px, 22px, 22px, 22px, 21px);
+      }
+
+      h6 {
+        color: #07b7d7;
+        line-height: 1;
+        margin-bottom: 0;
+        text-decoration: underline !important;
+      }
+    }
+  }
 }

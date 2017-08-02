@@ -138,7 +138,7 @@ h5 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(22px, 21px, 21px, 22px, 21px);
+  @include font-size(18px, 18px, 16px, 16px, 16px);
 }
 
 .h6,

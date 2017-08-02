@@ -1,43 +1,37 @@
 <div class="services-carousel">
 
     <div class="owl-carousel js-services-carousel hidden-xs">
-        {#{% for service in services %}#}
-        {#<div class="services-carousel__item">#}
-        {#<a href="#" data-toggle="modal" data-target="#service-modal{{ service.modalTarget }}"><div class="services-carousel--image"><img src="assets/services/{{ service.image }}" alt="Service Image"></div></a>#}
-        {#<div class="services-carousel__title">#}
-        {#<a href="#" data-toggle="modal" data-target="#service-modal{{ service.modalTarget }}"><h5>{{ service.title }}</h5></a>#}
-        {#</div>#}
-        {#</div>#}
-        {#{% endfor %}#}
         <div class="services-slide">
-            <img src="/assets/services/smile-makeovers.jpg" alt="Smile Makeover">
+            <img src="/assets/services/cosmetic.jpg" alt="Smile Makeover">
             <div class="services-slide__text services-slide__text--one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-lg-6">
+                        <div class="col-sm-8 col-sm-push-4">
                             <h2 class="services-slide__title">Smile Makeovers</h2>
                             <p class="services-slide__copy">Cosmetic dentistry is one of the most cost-effective ways to
                                 improve your appearance. A beautiful, bright, healthy smile will increase
                                 self-confidence and overall life satisfaction. Cosmetic dentistry includes things like
                                 tooth-colored restorations, dental implants, and crowns. We have many options, so please
                                 call us today!</p>
+                            <div class="alignright">
+                                <a href="http://www.pryorcosmeticdentist.com/" target="_blank" class="btn services-slide__btn">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="services-slide">
-            <img src="/assets/services/invisalign.jpg" alt="Invisalign">
-            <div class="services-slide__text services-slide__text--two">
+            <img src="/assets/services/sedation.jpg" alt="Sedation Dentistry">
+            <div class="services-slide__text">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-lg-6">
-                            <p class="services-slide__copy">These “invisible” aligners are the latest in orthodontic
-                                technology for adults and teens. Straight teeth and a revitalized smile no longer need
-                                to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem
-                                and physical confidence, invisible braces offer an esthetic and barely visible
-                                alternative to conventional wire/bracket braces. Get the smile you've always wanted with
-                                Invisalign® Orthodontics.</p>
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="services-slide__title">Sedation Dentistry</h2>
+                            <p class="services-slide__copy">Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth.</p>
+                            <div class="alignright">
+                                <a href="http://www.greencountry-sedationdentist.com/" target="_blank" class="btn services-slide__btn">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -48,8 +42,9 @@
             <div class="services-slide__text services-slide__text--one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7 col-md-5">
-                            <h2 class="services-slide__title">Care for the Whole Family</h2>
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="services-slide__title">Care for the</h2>
+                            <h2 class="services-slide__title services-slide__title--family">Whole Family</h2>
                             <p class="services-slide__copy">From toddlers to the elderly, our skilled dental team is
                                 familiar with the unique needs of every patient, no matter their age. Our goal is to
                                 help them develop great oral habits that will last them a lifetime.</p>
@@ -62,49 +57,51 @@
         </div>
     </div>
 
-    <div class="services-slides--mobile hidden-sm hidden-md hidden-lg">
+    <div class="services-slides-mobile hidden-sm hidden-md hidden-lg">
         <div class="services-slide-mobile">
-            <img src="/assets/services/smile-makeovers-mobile.jpg" alt="Smile Makeover">
+            <img src="/assets/services/cosmetic.jpg" alt="Smile Makeover">
             <div class="services-slide-mobile__text services-slide-mobile__text--one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-lg-6">
+                        <div class="col-sm-8 col-sm-push-4">
                             <h2 class="services-slide-mobile__title">Smile Makeovers</h2>
                             <p class="services-slide-mobile__copy">Cosmetic dentistry is one of the most cost-effective ways to
                                 improve your appearance. A beautiful, bright, healthy smile will increase
                                 self-confidence and overall life satisfaction. Cosmetic dentistry includes things like
                                 tooth-colored restorations, dental implants, and crowns. We have many options, so please
                                 call us today!</p>
+                            <div class="alignright">
+                                <a href="http://www.pryorcosmeticdentist.com/" target="_blank" class="btn services-slide-mobile__btn">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="services-slide-mobile">
-            <img src="/assets/services/invisalign-mobile.jpg" alt="Invisalign">
-            <div class="services-slide-mobile__text services-slide-mobile__text--two">
+            <img src="/assets/services/sedation.jpg" alt="Sedation Dentistry">
+            <div class="services-slide-mobile__text">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-lg-6">
-                            <h2 class="services-slide-mobile__title">Invisalign® Orthodontics</h2>
-                            <p class="services-slide-mobile__copy">These “invisible” aligners are the latest in orthodontic
-                                technology for adults and teens. Straight teeth and a revitalized smile no longer need
-                                to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem
-                                and physical confidence, invisible braces offer an esthetic and barely visible
-                                alternative to conventional wire/bracket braces. Get the smile you've always wanted with
-                                Invisalign® Orthodontics.</p>
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="services-slide-mobile__title">Sedation Dentistry</h2>
+                            <p class="services-slide-mobile__copy">Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth.</p>
+                            <div class="alignright">
+                                <a href="http://www.greencountry-sedationdentist.com/" target="_blank" class="btn services-slide-mobile__btn">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="services-slide-mobile">
-            <img src="/assets/services/family-care-mobile.jpg" alt="family care">
+            <img src="/assets/services/family-care.jpg" alt="family care">
             <div class="services-slide-mobile__text services-slide-mobile__text--one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7 col-md-5">
-                            <h2 class="services-slide-mobile__title">Care for the Whole Family</h2>
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="services-slide-mobile__title">Care for the</h2>
+                            <h2 class="services-slide-mobile__title services-slide-mobile__title--family">Whole Family</h2>
                             <p class="services-slide-mobile__copy">From toddlers to the elderly, our skilled dental team is
                                 familiar with the unique needs of every patient, no matter their age. Our goal is to
                                 help them develop great oral habits that will last them a lifetime.</p>

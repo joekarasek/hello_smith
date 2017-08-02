@@ -29,56 +29,52 @@
     }
   }
 
-  .btn {
-    margin-top: 45px;
-  }
-
   .slide1 {
-    //.slide__title {
-    //  color: #2c2340;
-    //  font-family: $ff-dancing;
-    //  line-height: 0.8;
-    //  font-weight: 400;
-    //  margin-bottom: 0;
-    //
-    //  @include font-size(44px, 41px);
-    //}
-    //
-    //.slide__title-smile {
-    //  color: #016e92;
-    //  font-family: $ff-raleway;
-    //  font-weight: 700;
-    //  margin-bottom: 60px;
-    //  line-height: 1;
-    //  text-shadow: 4px 3px 13px #fff;
-    //
-    //  @include font-size(95px, 76px);
-    //}
-    text-align: right;
+    display: flex;
+    align-content: center;
+
+    .slide__title {
+      color: #4b382c;
+      font-family: $ff-dancing;
+      line-height: 0.8;
+      font-weight: 400;
+      margin-bottom: 0;
+      margin-left: -25px;
+      text-align: left;
+
+      @include font-size(90px, 70px);
+
+      &-family {
+        color: #0491ab;
+        padding-left: 25px;
+        font-family: $ff-lato;
+        font-weight: 900;
+
+        @include font-size(77px, 56px);
+      }
+    }
 
     .slide__copy {
-      color: #183163;
-      padding-top: 40px;
+      color: #4b382c;
       line-height: 1;
       font-family: $ff-lato;
+      text-transform: uppercase;
 
-      @include font-size(36px, 32px, 28px, 26px, 24px);
+      @include font-size(25px, 23px, 20px, 20px, 18px);
     }
   }
 
   .slide2 {
+    font-family: $ff-lato;
+
     .slide__title {
-      color: #f05423;
-      font-weight: 700;
+      font-weight: 400 !important;
+      color: #4b382c;
       margin-bottom: 0;
       line-height: 1;
+      text-transform: uppercase;
 
-      &::first-line {
-        color: #1d5575;
-        font-weight: 900;
-      }
-
-      @include font-size(53px, 48px);
+      @include font-size(35px, 30px);
     }
 
     .stars {
@@ -87,34 +83,34 @@
     }
 
     .copy {
-      color: #332a46;
-      font-weight: 400;
+      color: #454545;
       margin-bottom: 25px;
       padding-right: 45px;
       line-height: 1.4;
-      letter-spacing: -1px;
 
-      @include font-size(20px, 18px, 18px, 20px, 19px);
+      @include font-size(28px, 25px, 20px, 18px, 17px);
     }
   }
 
   .slide3 {
     .title--no-insure {
-      color: #1d5575;
+      font-weight: 400;
+      color: #06b7d7;
       margin-bottom: 5px;
       line-height: 1;
+      font-family: $ff-dancing;
 
-      @include font-size(83px, 75px, 35px);
+      @include font-size(120px, 110px, 55px);
     }
 
     .title--sub {
-      color: #f05423;
-      font-weight: 700;
-      font-style: italic;
+      text-transform: uppercase;
+      letter-spacing: 1.7px;
+      color: #4b382c;
       line-height: 1;
       margin-bottom: 10px;
 
-      @include font-size(43px, 35px, 35px);
+      @include font-size(33px, 25px, 32px);
     }
 
     .preventative-copy {
@@ -122,7 +118,7 @@
       line-height: 1;
       padding-top: 10px;
 
-      @include font-size(38px, 32px);
+      @include font-size(37px, 31px);
     }
 
     .btn {

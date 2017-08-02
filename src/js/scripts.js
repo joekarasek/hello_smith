@@ -14,6 +14,7 @@
     speed: 500
   });
   HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
+    autoplay: false,
     items: 1,
     margin: 40,
     navText: [

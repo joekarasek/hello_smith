@@ -1,18 +1,6 @@
 #slider {
   height: 36.45833vw !important;
 
-  //.swiper-slide.slide1 {
-  //  background-image: url('assets/slide1.jpg');
-  //  background-position: 30% center;
-  //}
-  //.swiper-slide.slide2 {
-  //  background-image: url('assets/slide3.jpg');
-  //}
-  //.swiper-slide.slide3 {
-  //  background-image: url('assets/slide2.jpg');
-  //  background-position: 30% center;
-  //}
-
   .swiper-slide {
     > img {
       width: 100%;
@@ -39,12 +27,12 @@
       line-height: 0.8;
       font-weight: 400;
       margin-bottom: 0;
-      margin-left: -25px;
       text-align: left;
 
       @include font-size(90px, 70px);
 
       &-family {
+        padding-left: 25px;
         color: #0491ab;
         padding-left: 25px;
         font-family: $ff-lato;

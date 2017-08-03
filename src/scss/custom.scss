@@ -1,14 +1,4 @@
 //=============================
-//    Dependencies
-//=============================
-@import "bootstrap";
-@import "animate";
-@import "dark";
-@import "font-icons";
-@import "swiper";
-@import "canvas";
-@import "responsive";
-//=============================
 //      Custom Styles
 //=============================
 @import "globals/*";
@@ -36,4 +26,14 @@
 
 a[data-target^="#team-"]:hover {
   text-decoration: none;
+}
+
+.marquee img {
+  width: 100%;
+}
+
+iframe[src^="https://birdeye"] {
+  @media (max-width: 767px) {
+    max-height: 500px;
+  }
 }

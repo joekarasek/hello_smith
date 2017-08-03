@@ -103,6 +103,10 @@
   // ======= Google Maps =======
   HelloWorldDevsTysonSteele.googleMap('#google-map5', '36.3054821,-95.3133126', '36.3054821,-95.3133126');
 
+  $('#gallery-btn').click( function(e) {
+    e.preventDefault();
+    $('#gallery-target').click();
+  });
 
 }(jQuery, HelloWorldDevsTysonSteele));
 

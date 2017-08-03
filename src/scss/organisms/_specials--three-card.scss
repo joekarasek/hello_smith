@@ -1,5 +1,5 @@
 #section-specials {
-  background-image: url('/assets/specials-background.jpg');
+  background-image: url('/assets/specials.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30px;
@@ -16,7 +16,7 @@
     }
 
     &__sub-title {
-      color: #fff;
+      color: #000;
       font-size: 14px;
       font-style: italic;
       margin-bottom: 15px;
@@ -25,7 +25,7 @@
     }
 
     &__byline {
-      color: #fff603;
+      color: #fff681;
       font-weight: 400;
       line-height: 1;
       margin-bottom: 5px;
@@ -48,12 +48,12 @@
   }
 
   .specials-card {
-    //background: linear-gradient(rgba(255, 255, 255, 0) 50%, #fff 50%);
-    background-color: rgba(255, 255, 255, 0.85);
     text-align: center;
     width: 30%;
     position: relative;
     border-radius: 0;
+    display: flex;
+    flex-direction: column;
 
     &__top {
       border-bottom: 5px solid rgba(0, 0, 0, 0);
@@ -63,10 +63,12 @@
     }
 
     &__bottom {
+      background-color: rgba(255, 255, 255, 0.85);
       margin-top: 0;
       padding-top: 80px;
       padding-left: 20px;
       padding-right: 20px;
+      flex-grow: 1;
     }
 
     &__cost {
@@ -77,23 +79,22 @@
       margin-bottom: -85px;
       margin-left: auto;
       margin-right: auto;
-      width: 150px;
-      height: 150px;
-      border: solid 7px white;
-      border-radius: 50%;
+      width: 165px;
+      height: 125px;
+      // border: solid 7px white;
+      // border-radius: 50%;
       color: white;
       font-weight: 700;
       font-family: $ff-open;
       font-size: 84px;
       font-style: normal;
-      letter-spacing: -3.22px;
 
       &::before {
         content: '$';
         position: absolute;
-        font-size: 35px;
-        left: 15px;
-        top: 30px;
+        font-size: 36px;
+        left: 24px;
+        top: 17px;
         font-family: $ff-lato;
         font-weight: 400;
       }
@@ -105,7 +106,7 @@
     }
 
     &__title {
-      font-family: $ff-roboto-condensed;
+      font-family: $ff-lato;
       color: #fff;
       font-weight: 700;
       line-height: 1.1;
@@ -121,9 +122,10 @@
     }
 
     &__codes {
+      padding-top: 30px;
       color: #575757;
       font-size: 14px;
-      margin-bottom: 35px;
+      // margin-bottom: 65px;
       position: absolute;
       left: 0;
       right: 0;
@@ -132,25 +134,25 @@
 
     &:nth-child(1) {
       .specials-card__top {
-        background-color: rgba(111, 185, 0, 0.8);
+        background-color: rgba(7, 113, 198, 0.8);
       }
 
       .specials-card__cost {
-        background-color: #6fb900;
+        background-color: #044f7e;
       }
 
       .specials-card__savings {
-        color: #518405;
+        color: #044f7e;
       }
     }
 
     &:nth-child(2) {
       .specials-card__top {
-        background-color: rgba(0, 153, 232, 0.58);
+        background-color: rgba(0, 191, 200, 0.8);
       }
 
       .specials-card__cost {
-        background-color: #0094ff;
+        background-color: #00bfc8;
       }
 
       .specials-card__savings {
@@ -160,15 +162,15 @@
 
     &:nth-child(3) {
       .specials-card__top {
-        background-color: rgba(246, 138, 35, 0.8);
+        background-color: rgba(214, 96, 24, 0.8);
       }
 
       .specials-card__cost {
-        background-color: #ff9400;
+        background-color: #af4c0d;
       }
 
       .specials-card__savings {
-        color: #e68000;
+        color: #af4c0d;
       }
     }
   }

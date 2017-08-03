@@ -14,7 +14,8 @@
     speed: 500
   });
   HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
-    autoplay: false,
+    autoplay: true,
+    autoplayTimeout: 10000,
     items: 1,
     margin: 40,
     navText: [
@@ -33,6 +34,33 @@
     autoHeight: true
   });
   HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    navText: [
+      '<img src="assets/services-left.png">',
+      '<img src="assets/services-right.png">'
+    ],
+    dots: false,
+    margin: 30,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    }
+  });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two-mobile', {
     items: 1,
     loop: true,
     autoplay: true,
@@ -103,6 +131,10 @@
   // ======= Google Maps =======
   HelloWorldDevsTysonSteele.googleMap('#google-map5', '36.3054821,-95.3133126', '36.3054821,-95.3133126');
 
+  $('#gallery-btn').click( function(e) {
+    e.preventDefault();
+    $('#gallery-target').click();
+  });
 
 }(jQuery, HelloWorldDevsTysonSteele));
 

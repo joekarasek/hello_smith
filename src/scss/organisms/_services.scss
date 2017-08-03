@@ -1,4 +1,9 @@
 #section-services {
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
   .heading {
     background-color: #7b6353;
     text-align: center;

@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-family: $ff-open;
+  font-family: $ff-lato;
   margin-bottom: $spacing-sm;
   font-size: 16px;
 }
@@ -93,6 +93,7 @@ h1 {
 .h2,
 h2 {
   text-transform: none;
+  font-weight: 700;
 
   @include h2();
 
@@ -137,7 +138,7 @@ h5 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(22px, 21px, 21px, 22px, 21px);
+  @include font-size(18px, 18px, 16px, 16px, 16px);
 }
 
 .h6,

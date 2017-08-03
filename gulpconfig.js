@@ -16,12 +16,16 @@ module.exports = {
   css: {
     enabled: true,
     source: [
-      'src/scss/styles.scss',
+      'src/scss/custom.scss',
+    ],
+    dependencies: [
+      'src/canvas/styles.scss',
     ],
     includePaths: [
       'src/canvas/css/',
     ],
     dest: 'build/css/',
+    dependenciesDest: 'build/css/',
     watchPaths: [
       'src/scss/**/*.scss'
     ],

@@ -9,6 +9,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
 
+    @include font-size(36px, 34px, 34px, 34px, 32px);
+
     &__title {
       margin-bottom: 5px;
       line-height: 1;
